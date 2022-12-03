@@ -9,10 +9,10 @@ const section2 = document.createElement("section")
 const section3 = document.createElement("section")
 
 const img1 = document.createElement('img');
-img1.src = "../src/assets/images/phone-call.png";
+img1.src = "/assets/images/phone-call.png";
 
 const img2 = document.createElement('img');
-img2.src = "../src/assets/images/map.png"
+img2.src = "/assets/images/map.png"
 
 const iframe = document.createElement('iframe')
 iframe.setAttribute('src', "https://maps.google.com/maps?q=Thulo%20kharibot&t=&z=19&ie=UTF8&iwloc=&output=embed")
